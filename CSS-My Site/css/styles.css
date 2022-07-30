@@ -1,0 +1,111 @@
+
+body{
+margin: 0;
+text-align: center;
+background-color: #E4F9F5;
+}
+h1{
+  margin: 0;
+  font-family: 'Sacramento', sans-serif;
+  font-size: 5rem;
+  color: #11999E;
+}
+h2{
+  font-family: 'Merriweather', serif;
+  color: #11999E;
+  margin: 10px auto 10px auto;
+  font-weight: normal;
+}
+h3{
+  margin: 30px;
+  color: #11999E;
+}
+p{
+  margin-bottom: 40px;
+  color: #40514E;
+  font-weight: bold;
+}
+#end{
+   color: #EAF6F6;
+   padding: 30px;
+ }
+a{
+  color: #11999E;
+}
+hr{
+  border-style: dotted none none none;
+  height: 2px;
+  border-width: 8px;
+  border-color: #66BFBF;
+  width: 8%;
+}
+.circular{
+  border-radius: 100%;
+}
+.top-container{
+  padding-top:  100px;
+  background-color: #98DDCA;
+}
+.top_cloud{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+  width: 200px;
+}
+.bottom_cloud{
+  position: absolute;
+  left: 350px;
+}
+.skill-row{
+  width: 50%;
+  /* display: inline-block; */
+  margin: 5rem auto 5rem;
+}
+.skills{
+  margin: 5rem auto 0 auto;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.bottom-container{
+  background-color: #98DDCA;
+  padding: 5rem;
+  margin: 5rem auto 0 auto;
+}
+.middle-container{
+  margin: 5rem auto 3rem auto;
+}
+.contact-me{
+  margin: 5rem;
+}
+.footer-link{
+  padding: 50px;
+  color: #11999E;
+  text-decoration: none;
+  font-family: Arial;
+  font-weight: bolder;
+}
